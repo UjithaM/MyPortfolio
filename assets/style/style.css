@@ -1,56 +1,75 @@
-body>main{
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body > main {
     position: relative;
     width: 100%;
     height: 100vh;
 }
-body>main:nth-child(1){
+
+/* First main section styles */
+body > main:nth-child(1) {
     background-color: #FFF7F1;
 }
-header>h1{
+
+/* Header styles */
+header > h1 {
     margin: 10px;
     font-size: 40px;
     font-family: 'Jomhuria', cursive;
     display: inline;
 }
-header>nav>a{
+
+header > nav > a {
     text-decoration: none;
     color: black;
     margin: 0 10px;
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
 }
-header>nav{
+
+header > nav {
     position: absolute;
     right: 0;
     top: 0;
     margin: 10px;
 }
-#Home>section:nth-child(3)>img{
+
+/* Home section styles */
+#Home > section:nth-child(3) > img {
     width: 600px;
-   position: absolute;
-    right: 0px;
+    position: absolute;
+    right: 0;
     top: 97px;
 }
-#Home>section:nth-child(2)>div>h2{
+
+#Home > section:nth-child(2) > div > h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 54px;
     margin: 0;
 }
-#Home>section:nth-child(2)>div>h2:nth-child(2){
+
+#Home > section:nth-child(2) > div > h2:nth-child(2) {
     color: #F59E0B;
 }
-#Home>section:nth-child(2)>p{
+
+#Home > section:nth-child(2) > p {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
-#Home>section:nth-child(2){
+#Home > section:nth-child(2) {
     position: absolute;
     left: 10px;
     top: 250px;
 }
 
-#Home>section:nth-child(2)>div>button{
+#Home > section:nth-child(2) > div > button {
     font-family: 'Poppins', sans-serif;
     color: #F59E0B;
     background-color: #FFDEBF;
@@ -59,16 +78,18 @@ header>nav{
     font-size: 25px;
     border-radius: 11px;
 }
-#About\ Me>section:nth-child(1)>div>div>img{
+
+/* About Me section styles */
+#About\ Me > section:nth-child(1) > div > div > img {
     position: absolute;
     width: 420px;
     height: 625px;
     border-radius: 500px;
-
     top: -31px;
     left: -2px;
 }
-#About\ Me>section:nth-child(1)>div>div{
+
+#About\ Me > section:nth-child(1) > div > div {
     position: relative;
     background-color: #FEB33C;
     width: 417px;
@@ -76,10 +97,10 @@ header>nav{
     border-radius: 500px;
     left: 10px;
     top: 7px;
-    box-shadow:  20px 20px 60px #d9d9d9,
-    -20px -20px 60px #ffffff;
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
 }
-#About\ Me>section:nth-child(1)>div{
+
+#About\ Me > section:nth-child(1) > div {
     position: relative;
     border: 1px solid black;
     width: 417px;
@@ -88,29 +109,30 @@ header>nav{
     left: 50px;
     top: 100px;
 }
-#About\ Me>section:nth-child(2)>h3{
+
+#About\ Me > section:nth-child(2) > h3 {
     position: absolute;
     font-family: 'Poppins', sans-serif;
     font-size: 45px;
-
     right: 200px;
     top: 150px;
 }
 
-#About\ Me>section:nth-child(2)>p{
+#About\ Me > section:nth-child(2) > p {
     position: absolute;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
-
     right: 165px;
     top: 232px;
 }
-#About\ Me>section:nth-child(2)>div{
+
+#About\ Me > section:nth-child(2) > div {
     position: absolute;
     right: 576px;
     top: 506px;
 }
-#About\ Me>section:nth-child(2)>div>button{
+
+#About\ Me > section:nth-child(2) > div > button {
     position: relative;
     right: 70px;
     top: 50px;
@@ -123,3 +145,11 @@ header>nav{
     border-radius: 11px;
 }
 
+/* My Qualification section styles */
+#My\ qualification > section > h3 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
