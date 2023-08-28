@@ -5,19 +5,29 @@
     box-sizing: border-box;
 }
 
+p {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 24px;
+}
 /* Body styles */
+
 body > main {
     position: relative;
     width: 100%;
     height: 100vh;
 }
-
 /* First main section styles */
+
 body > main:nth-child(1) {
     background-color: #FFF7F1;
 }
 
+body > main:nth-child(3) {
+    background-color: #FFF7F1;
+}
 /* Header styles */
+
 header > h1 {
     margin: 10px;
     font-size: 40px;
@@ -39,10 +49,10 @@ header > nav {
     top: 0;
     margin: 10px;
 }
-
 /* Home section styles */
+
 #Home > section:nth-child(3) > img {
-    width: 600px;
+    width: 39vw;
     position: absolute;
     right: 0;
     top: 97px;
@@ -58,11 +68,6 @@ header > nav {
     color: #F59E0B;
 }
 
-#Home > section:nth-child(2) > p {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-}
-
 #Home > section:nth-child(2) {
     position: absolute;
     left: 10px;
@@ -70,13 +75,14 @@ header > nav {
 }
 
 #Home > section:nth-child(2) > div > button {
+    padding: 10px;
     font-family: 'Poppins', sans-serif;
     color: #F59E0B;
     background-color: #FFDEBF;
     border: 1px solid white;
     margin: 0;
     font-size: 25px;
-    border-radius: 11px;
+    border-radius: 10px;
 }
 
 /* About Me section styles */
@@ -110,46 +116,137 @@ header > nav {
     top: 100px;
 }
 
+#About\ Me > div {
+    position: absolute;
+    width: 177px;
+    height: 118px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    top: 448px;
+    right: 959px;
+}
+
 #About\ Me > section:nth-child(2) > h3 {
     position: absolute;
     font-family: 'Poppins', sans-serif;
-    font-size: 45px;
-    right: 200px;
-    top: 150px;
+    font-size: 40px;
+    left: 50%;
+    top: 25vh;
 }
 
 #About\ Me > section:nth-child(2) > p {
     position: absolute;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
-    right: 165px;
-    top: 232px;
+    left: 50%;
+    top: 32vh;
 }
 
 #About\ Me > section:nth-child(2) > div {
     position: absolute;
-    right: 576px;
-    top: 506px;
+    left: 50%;
+    top: 66vh;
 }
 
 #About\ Me > section:nth-child(2) > div > button {
     position: relative;
-    right: 70px;
-    top: 50px;
+    top: 7vh;
     font-family: 'Poppins', sans-serif;
     color: #F59E0B;
     background-color: #FFDEBF;
     border: 1px solid white;
     margin: 0;
     font-size: 25px;
-    border-radius: 11px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 /* My Qualification section styles */
-#My\ qualification > section > h3 {
+#My\ qualification > section > h3, #Projects > section > h3 {
     position: absolute;
     font-family: 'Poppins', sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     left: 50%;
+    top: 50px;
     transform: translate(-50%, -50%);
 }
+
+#My\ qualification > section > p {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    top: 80px;
+    left: calc(50% - 350px);
+    color: #757070;
+    width: 700px;
+}
+
+#My\ qualification > section:nth-child(2)>div {
+    font-family: 'Poppins', sans-serif;
+}
+
+#My\ qualification > section:nth-child(2) > div > p {
+    color: #757070;
+}
+
+#My\ qualification > section:nth-child(2) > div:nth-child(1) {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    left: 60%;
+    top: 30vh;
+}
+
+#My\ qualification > section:nth-child(2) > div:nth-child(2) {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    left: 30%;
+    top: 50vh;
+}
+
+
+#My\ qualification > section:nth-child(2) > div:nth-child(3) {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    left: 60%;
+    top: 70vh;
+}
+
+/*My Work & Projects section styles*/
+#Projects > section> img {
+    position: absolute;
+    width: 26vw;
+    height: 50vh;
+    background: black;
+    top: 15%;
+    border-radius: 48px;
+}
+#Projects > section> p {
+    position: absolute;
+    text-align: center;
+    top: 500px;
+    width: 26vw;
+    color: #757070;
+}
+#Projects > section:nth-child(2)> img {
+    left: 5%;
+}
+#Projects > section:nth-child(3)> img {
+    right: calc(50% - 13vw);
+}
+#Projects > section:nth-child(4)> img {
+    right: 5%;
+}
+
+#Projects > section:nth-child(2)> p {
+    left: 5%;
+}
+#Projects > section:nth-child(3)> p {
+    right: calc(50% - 13vw);
+}
+#Projects > section:nth-child(4)> p {
+    right: 5%;
+}
+/*Assignments section styles*/
+#Assignment
