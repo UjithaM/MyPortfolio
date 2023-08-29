@@ -163,7 +163,7 @@ header > nav {
 }
 
 /* My Qualification section styles */
-#My\ qualification > section > h3, #Projects > section > h3, #Assignment > section:nth-child(1) > h3 {
+#My\ qualification > section > h3, #Projects > section > h3, #Assignment > section:nth-child(1) > h3, #Skills > section > h3 {
     position: absolute;
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
@@ -292,4 +292,46 @@ header > nav {
     padding: 15px;
     left: 233px;
     top: 24px;
+}
+/*My Experience Area*/
+
+#Skills > div {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    top: 200px;
+    width: 100%;
+    height: 50vh;
+}
+#Skills > div > section {
+    padding: 0 100px;
+}
+#Skills > div > section > h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+.custom-progress {
+    width: 100%;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 10px;
+    position: relative;
+}
+
+.custom-progress-bar {
+    height: 100%;
+    width: 70%; /* Adjust this value to control the progress */
+    background-color: #F59E0B;
+    border-radius: 10px;
+    transition: width 0.3s ease-in-out;
+}
+
+.custom-progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-weight: bold;
 }
