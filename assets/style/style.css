@@ -407,24 +407,24 @@ header > nav {
     margin-bottom: 20px;
 }
 
-/*!*footer*!*/
-/*footer{*/
-/*    background-color: #192132;*/
-/*    height: 100px;*/
-/*    position: relative;*/
-/*}*/
-/*footer > h1 {*/
-/*    position: absolute;*/
-/*    left: 10px;*/
-/*    top: 10px;*/
-/*    color: white;*/
-/*}*/
-/*footer > div {*/
-/*    position: absolute;*/
-/*    right: 10px;*/
-/*    top: 20px;*/
-/*    margin: auto;*/
-/*}*/
+/*footer*/
+footer{
+    background-color: #192132;
+    height: 100px;
+    position: relative;
+}
+footer > h1 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+}
+footer > div {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    margin: auto;
+}
 
 /* media query Home styles */
 @media all and (max-width: 320px) {
@@ -614,7 +614,7 @@ header > nav {
     }
     /*get in touch small phone*/
     #Contact{
-        height: 300vh;
+        height: 190vh;
     }
     #Contact > form {
         top: 500px;
@@ -634,5 +634,13 @@ header > nav {
     #Contact > form > input{
         font-size: 20px;
         padding: 10px;
+    }
+    /*footer style small phone*/
+    footer > h1{
+        font-size: 20px;
+        top: 30px;
+    }
+    footer > div{
+        top: 29px;
     }
 }
