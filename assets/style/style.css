@@ -199,7 +199,6 @@ header > nav {
 
 #My\ qualification > section:nth-child(2) > div:nth-child(1) {
     position: absolute;
-    font-family: 'Poppins', sans-serif;
     left: 60%;
     top: 30vh;
 }
@@ -219,241 +218,245 @@ header > nav {
     top: 70vh;
 }
 
-/*My Work & Projects section styles*/
-#Projects{
-    height: 120vh;
-}
-#Projects > section> img {
-    position: absolute;
-    width: 26vw;
-    height: 50vh;
-    background: black;
-    top: 15%;
-    border-radius: 48px;
-}
-#Projects > section> p {
-    position: absolute;
-    text-align: center;
-    top: 550px;
-    width: 26vw;
-    color: #757070;
-}
-#Projects > section:nth-child(2)> img {
-    left: 5%;
-}
-#Projects > section:nth-child(3)> img {
-    right: calc(50% - 13vw);
-}
-#Projects > section:nth-child(4)> img {
-    right: 5%;
-}
+/*!*My Work & Projects section styles*!*/
+/*#Projects{*/
+/*    height: 120vh;*/
+/*}*/
+/*#Projects > section> img {*/
+/*    position: absolute;*/
+/*    width: 26vw;*/
+/*    height: 50vh;*/
+/*    background: black;*/
+/*    top: 15%;*/
+/*    border-radius: 48px;*/
+/*}*/
+/*#Projects > section> p {*/
+/*    position: absolute;*/
+/*    text-align: center;*/
+/*    top: 550px;*/
+/*    width: 26vw;*/
+/*    color: #757070;*/
+/*}*/
+/*#Projects > section:nth-child(2)> img {*/
+/*    left: 5%;*/
+/*}*/
+/*#Projects > section:nth-child(3)> img {*/
+/*    right: calc(50% - 13vw);*/
+/*}*/
+/*#Projects > section:nth-child(4)> img {*/
+/*    right: 5%;*/
+/*}*/
 
-#Projects > section:nth-child(2)> p {
-    left: 5%;
-}
-#Projects > section:nth-child(3)> p {
-    right: calc(50% - 13vw);
-}
-#Projects > section:nth-child(4)> p {
-    right: 5%;
-}
-/*Assignments section styles*/
-#Assignment{
-    height: 130vh;
-    background-color: #FFF7F1;
-}
-#Assignment > section:nth-child(1) > h3 {
-    top: 100px ;
-}
-#Assignment > div{
-    position: absolute;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    top: 150px;
-    padding: 0 30px;
-}
-#Assignment > div > section {
-    margin: 10px 20px;
-    background: #D9D9D9;
-    padding: 50px;
-    border-radius: 50px;
-}
-#Assignment > div > section > p {
-    color: #757070;
-}
-#Assignment > div > section > h4 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
-}
-#Assignment > div > section > button {
-    position: relative;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    background-color: #F59E0B;
-    border: none;
-    font-size: 25px;
-    border-radius: 20px;
-    padding: 15px;
-    left: 233px;
-    top: 24px;
-}
-/*My Experience Area*/
+/*#Projects > section:nth-child(2)> p {*/
+/*    left: 5%;*/
+/*}*/
+/*#Projects > section:nth-child(3)> p {*/
+/*    right: calc(50% - 13vw);*/
+/*}*/
+/*#Projects > section:nth-child(4)> p {*/
+/*    right: 5%;*/
+/*}*/
 
-#Skills > div {
-    position: absolute;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    top: 200px;
-    width: 100%;
-    height: 50vh;
-}
-#Skills > div > section {
-    padding: 0 100px;
-}
-#Skills > div > section > h4{
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
-}
-.custom-progress {
-    width: 100%;
-    height: 40px;
-    background-color: #ccc;
-    border-radius: 10px;
-    position: relative;
-}
+/*!*Assignments section styles*!*/
+/*#Assignment{*/
+/*    height: 130vh;*/
+/*    background-color: #FFF7F1;*/
+/*}*/
+/*#Assignment > section:nth-child(1) > h3 {*/
+/*    top: 100px ;*/
+/*}*/
+/*#Assignment > div{*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr 1fr;*/
+/*    grid-template-rows: 1fr 1fr;*/
+/*    top: 150px;*/
+/*    padding: 0 30px;*/
+/*}*/
+/*#Assignment > div > section {*/
+/*    margin: 10px 20px;*/
+/*    background: #D9D9D9;*/
+/*    padding: 50px;*/
+/*    border-radius: 50px;*/
+/*}*/
+/*#Assignment > div > section > p {*/
+/*    color: #757070;*/
+/*}*/
+/*#Assignment > div > section > h4 {*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    font-size: 24px;*/
+/*}*/
+/*#Assignment > div > section > button {*/
+/*    position: relative;*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    color: white;*/
+/*    background-color: #F59E0B;*/
+/*    border: none;*/
+/*    font-size: 25px;*/
+/*    border-radius: 20px;*/
+/*    padding: 15px;*/
+/*    left: 233px;*/
+/*    top: 24px;*/
+/*}*/
+/*!*My Experience Area*!*/
 
-.custom-progress-bar {
-    height: 100%;
-    width: 70%; /* Adjust this value to control the progress */
-    background-color: #F59E0B;
-    border-radius: 10px;
-    transition: width 0.3s ease-in-out;
-}
+/*#Skills > div {*/
+/*    position: absolute;*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr;*/
+/*    grid-template-rows: 1fr 1fr 1fr;*/
+/*    top: 200px;*/
+/*    width: 100%;*/
+/*    height: 50vh;*/
+/*}*/
+/*#Skills > div > section {*/
+/*    padding: 0 100px;*/
+/*}*/
+/*#Skills > div > section > h4{*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    font-size: 24px;*/
+/*}*/
+/*.custom-progress {*/
+/*    width: 100%;*/
+/*    height: 40px;*/
+/*    background-color: #ccc;*/
+/*    border-radius: 10px;*/
+/*    position: relative;*/
+/*}*/
 
-.custom-progress-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #000;
-    font-weight: bold;
-}
+/*.custom-progress-bar {*/
+/*    height: 100%;*/
+/*    width: 70%; !* Adjust this value to control the progress *!*/
+/*    background-color: #F59E0B;*/
+/*    border-radius: 10px;*/
+/*    transition: width 0.3s ease-in-out;*/
+/*}*/
 
-/*gallery*/
-#Gallery > section:nth-child(2){
-    position: absolute;
-    display: grid;
-    width: 100%;
-    height: 80vh;
-    top: 100px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-#Gallery > section:nth-child(2) > img {
-    background: black;
-    margin: 20px;
-}
+/*.custom-progress-text {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    color: #000;*/
+/*    font-weight: bold;*/
+/*}*/
 
-/*Get In Touch !*/
-#Contact > section{
-    position: absolute;
-    margin-left: 5vw;
-    margin-top: 15vh;
-}
-#Contact > form{
-    position: absolute;
-    margin-left: 50%;
-    margin-top: 15vh;
-}
-#Contact > section > h3{
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-}
-#Contact > section > div > h4 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: normal;
-    font-size: 24px;
-}
-#Contact > section > div > p {
-    color: #757070;
-    font-size: 24px;
-}
-#Contact > section > div{
-    margin: 20px 0;
-}
-#Contact > section > div > h4 > img {
-    width: 30px;
-}
-#Contact > form > div > label{
-    font-family: 'Poppins', sans-serif;
-    font-weight: normal;
-    font-size: 24px;
-    margin: 10px 0;
-}
-#Contact > form > div > input{
-    font-family: 'Poppins', sans-serif;
-    font-weight: normal;
-    width: 30vw;
-    height: 50px;
-    font-size: 24px;
-    background-color: #D9D9D9;
-    margin-bottom: 20px;
-}
-#Contact > form > input{
-    position: relative;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    background-color: #F59E0B;
-    font-size: 25px;
-    border-radius: 20px;
-    border: none;
-    padding: 15px;
-}
+/*!*gallery*!*/
+/*#Gallery > section:nth-child(2){*/
+/*    position: absolute;*/
+/*    display: grid;*/
+/*    width: 100%;*/
+/*    height: 80vh;*/
+/*    top: 100px;*/
+/*    grid-template-columns: 1fr 1fr 1fr;*/
+/*    grid-template-rows: 1fr 1fr;*/
+/*}*/
+/*#Gallery > section:nth-child(2) > img {*/
+/*    background: black;*/
+/*    margin: 20px;*/
+/*}*/
 
-#Contact > form > div > textarea{
-    font-family: 'Poppins', sans-serif;
-    font-weight: normal;
-    width: 30vw;
-    height: 200px;
-    font-size: 24px;
-    background-color: #D9D9D9;
-    margin-bottom: 20px;
-}
+/*!*Get In Touch !*!*/
+/*#Contact > section{*/
+/*    position: absolute;*/
+/*    margin-left: 5vw;*/
+/*    margin-top: 15vh;*/
+/*}*/
+/*#Contact > form{*/
+/*    position: absolute;*/
+/*    margin-left: 50%;*/
+/*    margin-top: 15vh;*/
+/*}*/
+/*#Contact > section > h3{*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    font-size: 40px;*/
+/*}*/
+/*#Contact > section > div > h4 {*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    font-weight: normal;*/
+/*    font-size: 24px;*/
+/*}*/
+/*#Contact > section > div > p {*/
+/*    color: #757070;*/
+/*    font-size: 24px;*/
+/*}*/
+/*#Contact > section > div{*/
+/*    margin: 20px 0;*/
+/*}*/
+/*#Contact > section > div > h4 > img {*/
+/*    width: 30px;*/
+/*}*/
+/*#Contact > form > div > label{*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    font-weight: normal;*/
+/*    font-size: 24px;*/
+/*    margin: 10px 0;*/
+/*}*/
+/*#Contact > form > div > input{*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    font-weight: normal;*/
+/*    width: 30vw;*/
+/*    height: 50px;*/
+/*    font-size: 24px;*/
+/*    background-color: #D9D9D9;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+/*#Contact > form > input{*/
+/*    position: relative;*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    color: white;*/
+/*    background-color: #F59E0B;*/
+/*    font-size: 25px;*/
+/*    border-radius: 20px;*/
+/*    border: none;*/
+/*    padding: 15px;*/
+/*}*/
 
-/*footer*/
-footer{
-    background-color: #192132;
-    height: 100px;
-    position: relative;
-}
-footer > h1 {
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    color: white;
-}
-footer > div {
-    position: absolute;
-    right: 10px;
-    top: 20px;
-    margin: auto;
-}
+/*#Contact > form > div > textarea{*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    font-weight: normal;*/
+/*    width: 30vw;*/
+/*    height: 200px;*/
+/*    font-size: 24px;*/
+/*    background-color: #D9D9D9;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*!*footer*!*/
+/*footer{*/
+/*    background-color: #192132;*/
+/*    height: 100px;*/
+/*    position: relative;*/
+/*}*/
+/*footer > h1 {*/
+/*    position: absolute;*/
+/*    left: 10px;*/
+/*    top: 10px;*/
+/*    color: white;*/
+/*}*/
+/*footer > div {*/
+/*    position: absolute;*/
+/*    right: 10px;*/
+/*    top: 20px;*/
+/*    margin: auto;*/
+/*}*/
 
 /* media query Home styles */
 @media all and (max-width: 320px) {
+    p{
+        font-size: 16px;
+    }
     #Home {
-        height: 151vh;
+        height: 134vh;
     }
     #Home > header > nav > a {
         display: none;
     }
     #Home > section:nth-child(3) > img {
-        width: 133vw;
-        right: -41px;
-        top: 400px;
+        width: 100vw;
+        right: 0px;
+        top: 417px;/
     }
     #Home > section:nth-child(2) > div > h2 {
         font-size: 34px;
@@ -463,7 +466,7 @@ footer > div {
         width: 98%;
     }
     #Home > section:nth-child(2) > div> a > img{
-        width: 25px;
+        width: 40px;
     }
     #Home > section:nth-child(2){
         top: 100px;
@@ -525,16 +528,36 @@ footer > div {
         left: 0px;
     }
     #About\ Me > section:nth-child(2) > div > a > img {
-        width: 25px;
+        width: 40px;
     }
     #About\ Me > section:nth-child(2) > div {
         left: 0;
         top: 56vh;
     }
     #About\ Me > section:nth-child(2) > div > button {
-        top: 5vh;
+        top: 7vh;
         font-size: 20px;
         border-radius: 10px;
         padding: 5px;
+    }
+    /*change all h3 font size */
+    #My\ qualification > section > h3, #Projects > section > h3, #Assignment > section:nth-child(1) > h3, #Skills > section > h3, #Gallery > section > h3{
+        font-size: 22px;
+    }
+    /*#My\ qualification small phone style*/
+    #My\ qualification > section > h3{
+        left: 70px;
+        transform: none;
+    }
+    #My\ qualification > section > p {
+        font-size: 16px;
+        text-align: center;
+        top: 80px;
+        width: 283px;
+        left: calc(50% - 133px);
+    }
+    #My\ qualification > section:nth-child(2) > div:nth-child(1), #My\ qualification > section:nth-child(2) > div:nth-child(2), #My\ qualification > section:nth-child(2) > div:nth-child(3) {
+        left: 50px;
+        margin-top: 30px;
     }
 }
