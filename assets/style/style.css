@@ -432,7 +432,7 @@ footer > div {
         font-size: 16px;
     }
     #Home {
-        height: 134vh;
+        height: 238vw;
     }
     #Home > header > nav > a {
         display: none;
@@ -466,7 +466,7 @@ footer > div {
     }
     /*about me style */
     #About\ Me{
-        height: 170vh;
+        height: 290vw;
     }
     #About\ Me > section:nth-child(2){
         position: relative;
@@ -550,7 +550,7 @@ footer > div {
         width: 218px;
     }
     #Projects{
-        height: 280vh;
+        height: 480vw;
     }
     #projectImages{
         flex-direction: column;
@@ -567,7 +567,7 @@ footer > div {
     }
     /*assignment small phone */
     #Assignment{
-        height: 240vh;
+        height: 435vw;
     }
     #Assignment > div{
         flex-direction: column;
@@ -593,7 +593,7 @@ footer > div {
 
     /*My Experience Area mobile style*/
     #Skills{
-        height: 140vh;
+        height: 240vw;
     }
     #Skills > section > h3{
         width: 223px;
@@ -610,11 +610,445 @@ footer > div {
     }
     /*gallery mobile small*/
     #Gallery{
-        height: 378vh;
+        height: 665vw;
     }
     /*get in touch small phone*/
     #Contact{
-        height: 190vh;
+        height: 344vw;
+    }
+    #Contact > form {
+        top: 500px;
+        margin: 0 0;
+        left: 10px;
+    }
+    #Contact > form > div > input{
+        width: 90vw;
+        height: 40px;
+    }
+    #Contact > form > div > textarea {
+        width: 90vw;
+    }
+    #Contact > section > div > p {
+        font-size: 16px;
+    }
+    #Contact > form > input{
+        font-size: 20px;
+        padding: 10px;
+    }
+    /*footer style small phone*/
+    footer > h1{
+        font-size: 20px;
+        top: 30px;
+    }
+    footer > div{
+        top: 29px;
+    }
+}
+@media all and (min-width: 321px) and (max-width: 376px){
+    p{
+        font-size: 16px;
+    }
+    #Home {
+        height: 219vw;
+    }
+    #Home > header > nav > a {
+        display: none;
+    }
+    #Home > section:nth-child(3) > img {
+        width: 100vw;
+        right: 0px;
+        top: 417px;/
+    }
+    #Home > section:nth-child(2) > div > h2 {
+        font-size: 34px;
+    }
+    #Home > section:nth-child(2) > p{
+        font-size: 15px;
+        width: 98%;
+    }
+    #Home > section:nth-child(2) > div> a > img{
+        width: 40px;
+    }
+    #Home > section:nth-child(2){
+        top: 100px;
+    }
+    #Home > section:nth-child(2) > div > button {
+        padding: 5px;
+        color: #F59E0B;
+        background-color: #FFDEBF;
+        border: 1px solid white;
+        margin: 0;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+    /*about me style */
+    #About\ Me{
+        height: 248vw;
+    }
+    #About\ Me > section:nth-child(2){
+        position: relative;
+        top: 81px;
+        right: -50px;
+        width: 290px;
+        height: 500px;
+        margin: 0;
+    }
+    #About\ Me > section:nth-child(2) > h3 {
+        font-size: 22px;
+        top: 0px;
+        left: 0px;
+    }
+    #About\ Me > section:nth-child(1) > div > div > img {
+        width: 286px;
+        height: 446px;
+        top: -14px;
+        left: 1px;
+    }
+    #About\ Me > section:nth-child(1) > div > div {
+        width: 287px;
+        height: 431px;
+        left: 6px;
+        top: 8px;
+    }
+    #About\ Me > section:nth-child(1) > div {
+        width: 287px;
+        height: 431px;
+        left: 30px;
+        top: 50px;
+        margin: 0;
+    }
+    #About\ Me > div {
+        width: 130px;
+        height: 80px;
+        top: 383px;
+        right: 28px;
+    }
+    #About\ Me > section:nth-child(2) > p {
+        font-size: 16px;
+        top: 35px;
+        left: 0px;
+    }
+    #About\ Me > section:nth-child(2) > div > a > img {
+        width: 40px;
+    }
+    #About\ Me > section:nth-child(2) > div {
+        left: 0;
+        top: 56vh;
+    }
+    #About\ Me > section:nth-child(2) > div > button {
+        top: 7vh;
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    /*change all h3 font size */
+    #My\ qualification > section > h3, #Projects > section > h3, #Assignment > section:nth-child(1) > h3, #Skills > section > h3, #Gallery > section > h3{
+        font-size: 22px;
+    }
+    /*#My\ qualification small phone style*/
+    #My\ qualification > section > h3{
+        left: 70px;
+        transform: none;
+    }
+    #My\ qualification > section > p {
+        font-size: 16px;
+        text-align: center;
+        top: 80px;
+        width: 283px;
+        left: calc(50% - 133px);
+    }
+    #My\ qualification > section:nth-child(2) > div:nth-child(1), #My\ qualification > section:nth-child(2) > div:nth-child(2), #My\ qualification > section:nth-child(2) > div:nth-child(3) {
+        left: 50px;
+        margin-top: 30px;
+    }
+    /*project small phone styles*/
+    #Projects > section > h3{
+        left: 50%;
+        width: 218px;
+    }
+    #Projects{
+        height: 410vw;
+    }
+    #projectImages{
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 280vh;
+    }
+    #Projects > div > section > img {
+        width: 250px;
+        height: 250px;
+    }
+    #Projects > div > section > p {
+        width: 250px;
+        height: 250px;
+    }
+    /*assignment small phone */
+    #Assignment{
+        height: 382vw;
+    }
+    #Assignment > div{
+        flex-direction: column;
+        justify-content: flex-end;
+
+        height: 212vh;
+    }
+    #Assignment > div > section{
+        width: 275px;
+       height: 180px;
+    }
+    #Assignment > div > section > h4 {
+        font-size: 20px;
+    }
+    #Assignment > div > section {
+        padding: 17px;
+    }
+    #Assignment > div > section > button {
+        font-size: 16px;
+        left: 158px;
+        top: -11px;
+    }
+
+    /*My Experience Area mobile style*/
+    #Skills{
+        height: 206vw;
+    }
+    #Skills > section > h3{
+        width: 223px;
+    }
+    #Skills > div > section {
+        padding: 0;
+    }
+    #Skills > div {
+        top: 100px;
+        height: 112vh;
+    }
+    .custom-progress {
+        width: 90vw;
+    }
+    /*gallery mobile small*/
+    #Gallery{
+        height: 578vw;
+    }
+    /*get in touch small phone*/
+    #Contact{
+        height: 288vw;
+    }
+    #Contact > form {
+        top: 500px;
+        margin: 0 0;
+        left: 10px;
+    }
+    #Contact > form > div > input{
+        width: 90vw;
+        height: 40px;
+    }
+    #Contact > form > div > textarea {
+        width: 90vw;
+    }
+    #Contact > section > div > p {
+        font-size: 16px;
+    }
+    #Contact > form > input{
+        font-size: 20px;
+        padding: 10px;
+    }
+    /*footer style small phone*/
+    footer > h1{
+        font-size: 20px;
+        top: 30px;
+    }
+    footer > div{
+        top: 29px;
+    }
+}
+@media all and (min-width: 377px) and (max-width: 426px){
+    p{
+        font-size: 16px;
+    }
+    #Home {
+        height: 205vw;
+    }
+    #Home > header > nav > a {
+        display: none;
+    }
+    #Home > section:nth-child(3) > img {
+        width: 100vw;
+        right: 0px;
+        top: 417px;/
+    }
+    #Home > section:nth-child(2) > div > h2 {
+        font-size: 34px;
+    }
+    #Home > section:nth-child(2) > p{
+        font-size: 15px;
+        width: 98%;
+    }
+    #Home > section:nth-child(2) > div> a > img{
+        width: 40px;
+    }
+    #Home > section:nth-child(2){
+        top: 100px;
+    }
+    #Home > section:nth-child(2) > div > button {
+        padding: 5px;
+        color: #F59E0B;
+        background-color: #FFDEBF;
+        border: 1px solid white;
+        margin: 0;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+    /*about me style */
+    #About\ Me{
+        height: 220vw;
+    }
+    #About\ Me > section:nth-child(2){
+        position: relative;
+        top: 81px;
+        right: -70px;
+        width: 290px;
+        height: 500px;
+        margin: 0;
+    }
+    #About\ Me > section:nth-child(2) > h3 {
+        font-size: 22px;
+        top: 0px;
+        left: 0px;
+    }
+    #About\ Me > section:nth-child(1) > div > div > img {
+        width: 286px;
+        height: 446px;
+        top: -14px;
+        left: 1px;
+    }
+    #About\ Me > section:nth-child(1) > div > div {
+        width: 287px;
+        height: 431px;
+        left: 6px;
+        top: 8px;
+    }
+    #About\ Me > section:nth-child(1) > div {
+        width: 287px;
+        height: 431px;
+        left: 64px;
+        top: 50px;
+        margin: 0;
+    }
+    #About\ Me > div {
+        width: 130px;
+        height: 80px;
+        top: 383px;
+        right: 28px;
+    }
+    #About\ Me > section:nth-child(2) > p {
+        font-size: 16px;
+        top: 35px;
+        left: 0px;
+    }
+    #About\ Me > section:nth-child(2) > div > a > img {
+        width: 40px;
+    }
+    #About\ Me > section:nth-child(2) > div {
+        left: 0;
+        top: 56vh;
+    }
+    #About\ Me > section:nth-child(2) > div > button {
+        top: 7vh;
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    /*change all h3 font size */
+    #My\ qualification > section > h3, #Projects > section > h3, #Assignment > section:nth-child(1) > h3, #Skills > section > h3, #Gallery > section > h3{
+        font-size: 22px;
+    }
+    /*#My\ qualification small phone style*/
+    #My\ qualification > section > h3{
+        left: 70px;
+        transform: none;
+    }
+    #My\ qualification > section > p {
+        font-size: 16px;
+        text-align: center;
+        top: 80px;
+        width: 283px;
+        left: calc(50% - 133px);
+    }
+    #My\ qualification > section:nth-child(2) > div:nth-child(1), #My\ qualification > section:nth-child(2) > div:nth-child(2), #My\ qualification > section:nth-child(2) > div:nth-child(3) {
+        left: 50px;
+        margin-top: 30px;
+    }
+    /*project small phone styles*/
+    #Projects > section > h3{
+        left: 50%;
+        width: 218px;
+    }
+    #Projects{
+        height: 366vw;
+    }
+    #projectImages{
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 280vh;
+    }
+    #Projects > div > section > img {
+        width: 250px;
+        height: 250px;
+    }
+    #Projects > div > section > p {
+        width: 250px;
+        height: 250px;
+    }
+    /*assignment small phone */
+    #Assignment{
+        height: 324vw;
+    }
+    #Assignment > div{
+        flex-direction: column;
+        justify-content: flex-end;
+
+        height: 212vh;
+    }
+    #Assignment > div > section{
+        width: 275px;
+       height: 180px;
+    }
+    #Assignment > div > section > h4 {
+        font-size: 20px;
+    }
+    #Assignment > div > section {
+        padding: 17px;
+    }
+    #Assignment > div > section > button {
+        font-size: 16px;
+        left: 158px;
+        top: -11px;
+    }
+
+    /*My Experience Area mobile style*/
+    #Skills{
+        height: 176vw;
+    }
+    #Skills > section > h3{
+        width: 223px;
+    }
+    #Skills > div > section {
+        padding: 0;
+    }
+    #Skills > div {
+        top: 100px;
+        height: 112vh;
+    }
+    .custom-progress {
+        width: 90vw;
+    }
+    /*gallery mobile small*/
+    #Gallery{
+        height: 510vw;
+    }
+    /*get in touch small phone*/
+    #Contact{
+        height: 256vw;
     }
     #Contact > form {
         top: 500px;
