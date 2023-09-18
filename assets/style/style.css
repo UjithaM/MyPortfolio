@@ -516,10 +516,10 @@ footer > div {
     }
     #About\ Me > section:nth-child(2) > div {
         left: 0;
-        top: 56vh;
+        top: 100vw;
     }
     #About\ Me > section:nth-child(2) > div > button {
-        top: 7vh;
+        top: 13vw;
         font-size: 20px;
         border-radius: 10px;
         padding: 5px;
@@ -555,7 +555,7 @@ footer > div {
     #projectImages{
         flex-direction: column;
         justify-content: flex-end;
-        height: 280vh;
+        height: 500vw;
     }
     #Projects > div > section > img {
         width: 250px;
@@ -573,7 +573,7 @@ footer > div {
         flex-direction: column;
         justify-content: flex-end;
 
-        height: 212vh;
+        height: 377vw;
     }
     #Assignment > div > section{
         width: 275px;
@@ -603,7 +603,7 @@ footer > div {
     }
     #Skills > div {
         top: 100px;
-        height: 112vh;
+        height: 112vw;
     }
     .custom-progress {
         width: 90vw;
@@ -733,10 +733,9 @@ footer > div {
     }
     #About\ Me > section:nth-child(2) > div {
         left: 0;
-        top: 56vh;
+        top: 84vw;
     }
     #About\ Me > section:nth-child(2) > div > button {
-        top: 7vh;
         font-size: 20px;
         border-radius: 10px;
         padding: 5px;
@@ -772,7 +771,7 @@ footer > div {
     #projectImages{
         flex-direction: column;
         justify-content: flex-end;
-        height: 280vh;
+        height: 429vw;
     }
     #Projects > div > section > img {
         width: 250px;
@@ -790,7 +789,7 @@ footer > div {
         flex-direction: column;
         justify-content: flex-end;
 
-        height: 212vh;
+        height: 321vw;
     }
     #Assignment > div > section{
         width: 275px;
@@ -950,10 +949,9 @@ footer > div {
     }
     #About\ Me > section:nth-child(2) > div {
         left: 0;
-        top: 56vh;
+        top: 74vw;
     }
     #About\ Me > section:nth-child(2) > div > button {
-        top: 7vh;
         font-size: 20px;
         border-radius: 10px;
         padding: 5px;
@@ -989,7 +987,7 @@ footer > div {
     #projectImages{
         flex-direction: column;
         justify-content: flex-end;
-        height: 280vh;
+        height: 380vw;
     }
     #Projects > div > section > img {
         width: 250px;
@@ -1007,7 +1005,7 @@ footer > div {
         flex-direction: column;
         justify-content: flex-end;
 
-        height: 212vh;
+        height: 283vw;
     }
     #Assignment > div > section{
         width: 275px;
