@@ -15,7 +15,7 @@ p {
 body > main {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 48vw;
 }
 /* Home styles */
 
@@ -129,8 +129,8 @@ header > nav {
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
-    top: 448px;
-    right: 959px;
+    top: 514px;
+    right: 1183px;
 }
 
 #About\ Me > section:nth-child(2) > h3 {
@@ -138,7 +138,7 @@ header > nav {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     left: 50%;
-    top: 25vh;
+    top: 12vw;
 }
 
 #About\ Me > section:nth-child(2) > p {
@@ -146,18 +146,18 @@ header > nav {
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     left: 50%;
-    top: 32vh;
+    top: 15vw;
 }
 
 #About\ Me > section:nth-child(2) > div {
     position: absolute;
     left: 50%;
-    top: 66vh;
+    top: 32vw;
 }
 
 #About\ Me > section:nth-child(2) > div > button {
     position: relative;
-    top: 7vh;
+    top: 4vw;
     font-family: 'Poppins', sans-serif;
     color: #F59E0B;
     background-color: #FFDEBF;
@@ -200,14 +200,14 @@ header > nav {
 #My\ qualification > section:nth-child(2) > div:nth-child(1) {
     position: absolute;
     left: 60%;
-    top: 30vh;
+    top: 10vw;
 }
 
 #My\ qualification > section:nth-child(2) > div:nth-child(2) {
     position: absolute;
     font-family: 'Poppins', sans-serif;
     left: 30%;
-    top: 50vh;
+    top: 22vw;
 }
 
 
@@ -215,21 +215,24 @@ header > nav {
     position: absolute;
     font-family: 'Poppins', sans-serif;
     left: 60%;
-    top: 70vh;
+    top: 37vw;
 }
 
 /*My Work & Projects section styles*/
 #projectImages{
-    height: 120vh;
+    position: relative;
+    top: 100px;
+    height: 38vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 #Projects > div > section> img {
-    width: 26vw;
-    height: 50vh;
+    width: 29vw;
+    height: 18vw;
     background: black;
-    border-radius: 48px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 #Projects > div > section> p {
     text-align: center;
@@ -239,7 +242,7 @@ header > nav {
 
 /*Assignments section styles*/
 #Assignment{
-    height: 130vh;
+    height: 65vw;
     background-color: #FFF7F1;
 }
 #Assignment > section:nth-child(1) > h3 {
@@ -289,7 +292,7 @@ header > nav {
     position: absolute;
     top: 200px;
     width: 100%;
-    height: 50vh;
+    height: 30vw;
 }
 #Skills > div > section {
     padding: 0 100px;
@@ -325,11 +328,14 @@ header > nav {
 }
 
 /*gallery*/
+#Gallery{
+    height: 55vw;
+}
 #Gallery > section:nth-child(2){
     position: absolute;
     display: flex;
     width: 100%;
-    height: 80vh;
+    height: 50vw;
     justify-content: space-evenly;
     flex-wrap: wrap;
     top: 80px;
@@ -345,12 +351,12 @@ header > nav {
 #Contact > section{
     position: absolute;
     margin-left: 5vw;
-    margin-top: 15vh;
+    margin-top: 8vw;
 }
 #Contact > form{
     position: absolute;
     margin-left: 50%;
-    margin-top: 15vh;
+    margin-top: 8vw;
 }
 #Contact > section > h3{
     font-family: 'Poppins', sans-serif;
@@ -529,6 +535,9 @@ footer > div {
         font-size: 22px;
     }
     /*#My\ qualification small phone style*/
+    #My\ qualification{
+        height: 200vw;
+    }
     #My\ qualification > section > h3{
         left: 70px;
         transform: none;
@@ -544,22 +553,34 @@ footer > div {
         left: 50px;
         margin-top: 30px;
     }
+    #My\ qualification > section:nth-child(2) > div:nth-child(1) {
+        top: 50vw;
+    }
+
+    #My\ qualification > section:nth-child(2) > div:nth-child(2) {
+        top: 100vw;
+    }
+
+    #My\ qualification > section:nth-child(2) > div:nth-child(3) {
+        top: 150vw;
+    }
     /*project small phone styles*/
     #Projects > section > h3{
         left: 50%;
         width: 218px;
     }
     #Projects{
-        height: 480vw;
+        height: 400vw;
     }
     #projectImages{
+        top: 0;
         flex-direction: column;
         justify-content: flex-end;
-        height: 500vw;
+        height: 420vw;
     }
     #Projects > div > section > img {
         width: 250px;
-        height: 250px;
+        height: 150px;
     }
     #Projects > div > section > p {
         width: 250px;
@@ -736,6 +757,7 @@ footer > div {
         top: 84vw;
     }
     #About\ Me > section:nth-child(2) > div > button {
+        top: 13vw;
         font-size: 20px;
         border-radius: 10px;
         padding: 5px;
@@ -745,8 +767,11 @@ footer > div {
         font-size: 22px;
     }
     /*#My\ qualification small phone style*/
+    #My\ qualification{
+        height: 200vw;
+    }
     #My\ qualification > section > h3{
-        left: 70px;
+        left: 100px;
         transform: none;
     }
     #My\ qualification > section > p {
@@ -760,22 +785,34 @@ footer > div {
         left: 50px;
         margin-top: 30px;
     }
+    #My\ qualification > section:nth-child(2) > div:nth-child(1) {
+        top: 50vw;
+    }
+
+    #My\ qualification > section:nth-child(2) > div:nth-child(2) {
+        top: 100vw;
+    }
+
+    #My\ qualification > section:nth-child(2) > div:nth-child(3) {
+        top: 150vw;
+    }
     /*project small phone styles*/
     #Projects > section > h3{
         left: 50%;
         width: 218px;
     }
     #Projects{
-        height: 410vw;
+        height: 330vw;
     }
     #projectImages{
+        top: 0;
         flex-direction: column;
         justify-content: flex-end;
-        height: 429vw;
+        height: 350vw;
     }
     #Projects > div > section > img {
         width: 250px;
-        height: 250px;
+        height: 150px;
     }
     #Projects > div > section > p {
         width: 250px;
@@ -809,7 +846,7 @@ footer > div {
 
     /*My Experience Area mobile style*/
     #Skills{
-        height: 206vw;
+        height: 270vw;
     }
     #Skills > section > h3{
         width: 223px;
@@ -819,7 +856,7 @@ footer > div {
     }
     #Skills > div {
         top: 100px;
-        height: 112vh;
+        height: 240vw;
     }
     .custom-progress {
         width: 90vw;
@@ -952,17 +989,21 @@ footer > div {
         top: 74vw;
     }
     #About\ Me > section:nth-child(2) > div > button {
+        top: 13vw;
         font-size: 20px;
         border-radius: 10px;
         padding: 5px;
     }
     /*change all h3 font size */
+    #My\ qualification{
+        height: 200vw;
+    }
     #My\ qualification > section > h3, #Projects > section > h3, #Assignment > section:nth-child(1) > h3, #Skills > section > h3, #Gallery > section > h3{
         font-size: 22px;
     }
     /*#My\ qualification small phone style*/
     #My\ qualification > section > h3{
-        left: 70px;
+        left: 125px;
         transform: none;
     }
     #My\ qualification > section > p {
@@ -976,25 +1017,37 @@ footer > div {
         left: 50px;
         margin-top: 30px;
     }
+    #My\ qualification > section:nth-child(2) > div:nth-child(1) {
+        top: 50vw;
+    }
+
+    #My\ qualification > section:nth-child(2) > div:nth-child(2) {
+        top: 100vw;
+    }
+
+    #My\ qualification > section:nth-child(2) > div:nth-child(3) {
+        top: 150vw;
+    }
     /*project small phone styles*/
     #Projects > section > h3{
         left: 50%;
         width: 218px;
     }
     #Projects{
-        height: 366vw;
+        height: 320vw;
     }
     #projectImages{
+        top: 0;
         flex-direction: column;
         justify-content: flex-end;
-        height: 380vw;
+        height: 330vw;
     }
     #Projects > div > section > img {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 180px;
     }
     #Projects > div > section > p {
-        width: 250px;
+        width: 300px;
         height: 250px;
     }
     /*assignment small phone */
@@ -1025,7 +1078,7 @@ footer > div {
 
     /*My Experience Area mobile style*/
     #Skills{
-        height: 176vw;
+        height: 240vw;
     }
     #Skills > section > h3{
         width: 223px;
@@ -1035,7 +1088,7 @@ footer > div {
     }
     #Skills > div {
         top: 100px;
-        height: 112vh;
+        height: 210vw;
     }
     .custom-progress {
         width: 90vw;
