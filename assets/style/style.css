@@ -27,6 +27,7 @@ body > main {
 
 body > main:nth-child(1) {
     background-color: #FFF7F1;
+    z-index: 0;
 }
 
 body > main:nth-child(3) {
@@ -97,6 +98,26 @@ header > nav {
     border-radius: 10px;
 }
 
+#background{
+    top: 0;
+    position: absolute;
+    width: 50%;
+    height: 48vw;
+    background: #F59E0B;
+    clip-path: polygon(89% 0, 100% 0, 100% 100%, 40% 100%);
+    z-index: -1;
+    right: 0;
+}
+#background2{
+    top: 0;
+    position: absolute;
+    width: 50%;
+    height: 48vw;
+    background: #fdedcd;
+    clip-path: polygon(71% 0, 91% 0, 47% 100%, 25% 100%);
+    z-index: -1;
+    right: 0;
+}
  /*About Me section styles*/
 #About\ Me > section:nth-child(1) > div > div > img {
     position: absolute;
@@ -136,7 +157,7 @@ header > nav {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
     top: 514px;
-    right: 1183px;
+    right: 986px;
 }
 
 #About\ Me > section:nth-child(2) > h3 {
@@ -476,6 +497,24 @@ footer > div {
         font-size: 18px;
         border-radius: 10px;
     }
+    #background{
+        top: 472px;
+        position: absolute;
+        width: 50%;
+        height: 90vw;
+        clip-path: polygon(100% 0, 100% 0, 100% 100%, 40% 100%);
+        z-index: -1;
+        right: 0;
+    }
+    #background2{
+        top: 462px;
+        position: absolute;
+        width: 50%;
+        height: 90vw;
+        clip-path: polygon(100% 0, 100% 31%, 50% 100%, 20% 100%);
+        z-index: -1;
+        right: 0;
+    }
     /*about me style */
     #About\ Me{
         height: 290vw;
@@ -707,6 +746,24 @@ footer > div {
         margin: 0;
         font-size: 18px;
         border-radius: 10px;
+    }
+    #background{
+        top: 482px;
+        position: absolute;
+        width: 50%;
+        height: 90vw;
+        clip-path: polygon(100% 0, 100% 0, 100% 100%, 40% 100%);
+        z-index: -1;
+        right: 0;
+    }
+    #background2{
+        top: 462px;
+        position: absolute;
+        width: 50%;
+        height: 90vw;
+        clip-path: polygon(100% 0, 100% 31%, 50% 100%, 20% 100%);
+        z-index: -1;
+        right: 0;
     }
     /*about me style */
     #About\ Me{
@@ -940,6 +997,24 @@ footer > div {
         font-size: 18px;
         border-radius: 10px;
     }
+    #background{
+        top: 490px;
+        position: absolute;
+        width: 50%;
+        height: 90vw;
+        clip-path: polygon(100% 0, 100% 0, 100% 100%, 40% 100%);
+        z-index: -1;
+        right: 0;
+    }
+    #background2{
+        top: 462px;
+        position: absolute;
+        width: 50%;
+        height: 90vw;
+        clip-path: polygon(100% 0, 100% 31%, 50% 100%, 20% 100%);
+        z-index: -1;
+        right: 0;
+    }
     /*about me style */
     #About\ Me{
         height: 220vw;
@@ -1168,6 +1243,24 @@ footer > div {
         margin: 0;
         font-size: 18px;
         border-radius: 10px;
+    }
+    #background{
+        top: 549px;
+        position: absolute;
+        width: 50%;
+        height: 90vw;
+        clip-path: polygon(100% 0, 100% 0, 100% 100%, 40% 100%);
+        z-index: -1;
+        right: 0;
+    }
+    #background2{
+        top: 462px;
+        position: absolute;
+        width: 50%;
+        height: 90vw;
+        clip-path: polygon(100% 0, 100% 31%, 50% 100%, 20% 100%);
+        z-index: -1;
+        right: 0;
     }
     /*about me style */
     #About\ Me{
