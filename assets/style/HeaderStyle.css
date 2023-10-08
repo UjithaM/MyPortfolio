@@ -1,0 +1,22 @@
+
+header > h1 {
+    margin: 10px;
+    font-size: 40px;
+    font-family: 'Jomhuria', cursive;
+    display: inline;
+}
+
+header > nav > a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+header > nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+}

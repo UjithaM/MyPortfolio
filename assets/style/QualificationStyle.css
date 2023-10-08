@@ -1,0 +1,48 @@
+
+#My\ qualification > section > h3, #Projects > section > h3, #Assignment > section:nth-child(1) > h3, #Skills > section > h3, #Gallery > section > h3 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%, -50%);
+}
+
+#My\ qualification > section > p {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    top: 80px;
+    left: calc(50% - 350px);
+    color: #757070;
+    width: 700px;
+}
+
+#My\ qualification > section:nth-child(2)>div {
+    font-family: 'Poppins', sans-serif;
+}
+
+#My\ qualification > section:nth-child(2) > div > p {
+    color: #757070;
+}
+
+#My\ qualification > section:nth-child(2) > div:nth-child(1) {
+    position: absolute;
+    left: 60%;
+    top: 10vw;
+}
+
+#My\ qualification > section:nth-child(2) > div:nth-child(2) {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    left: 30%;
+    top: 22vw;
+}
+
+#My\ qualification > section:nth-child(2) > div:nth-child(3) {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    left: 60%;
+    top: 37vw;
+}
