@@ -22,7 +22,7 @@
 
 #Home > section:nth-child(2) {
     position: absolute;
-    left: 10px;
+    left: 80px;
     top: 250px;
 }
 
@@ -57,4 +57,154 @@
     clip-path: polygon(71% 0, 91% 0, 47% 100%, 25% 100%);
     z-index: -1;
     right: 0;
+}
+@media (max-width: 1222px) {
+    #Home > section:nth-child(2) {
+        top: 130px;
+    }
+}
+@media (max-width: 1024px) {
+    #Home > section:nth-child(2) {
+        top: 100px;
+    }
+    #Home > section:nth-child(2) > div > h2 {
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    #Home > section:nth-child(2) > div> a > img{
+         width: 40px;
+    }
+    #Home > section:nth-child(2) > div > button {
+        padding: 5px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 813px) {
+    #Home > section:nth-child(2) {
+        top: 50px;
+    }
+}
+@media (max-width: 768px) {
+    #Home > section:nth-child(2) {
+        top: 87px;
+    }
+    #Home > section:nth-child(2) > div > h2 {
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    #Home > section:nth-child(2) > div> a > img{
+        width: 30px;
+    }
+    #Home > section:nth-child(2) > div > button {
+        padding: 5px;
+        font-size: 18px;
+    }
+    #Home > section:nth-child(3) > img {
+        top: 48px;
+    }
+}
+@media (max-width: 683px) {
+    #Home > section:nth-child(2) > div > h2 {
+        font-size: 2rem;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+    #Home > section:nth-child(2) > div> a > img{
+        width: 30px;
+    }
+    #Home > section:nth-child(2) > div > button {
+        padding: 4px;
+        font-size: 1rem;
+    }
+    #Home > section:nth-child(3) > img {
+        top: 43px;
+    }
+}
+@media (max-width: 615px) {
+    #Home > section:nth-child(2) {
+        top: 30px;
+    }
+}
+@media (max-width: 607px) {
+   p{
+       font-size: 16px;
+   }
+    #Home {
+        height: 170vw;
+    }
+    #Home > header > nav > a {
+        display: none;
+    }
+    #Home > section:nth-child(3) > img {
+        width: 100vw;
+        right: 0;
+        top: 386px;
+    }
+    #Home > section:nth-child(2) > div > h2 {
+        font-size: 34px;
+    }
+    #Home > section:nth-child(2) > p{
+        font-size: 15px;
+        width: 85%;
+    }
+    #Home > section:nth-child(2) > div> a > img{
+        width: 40px;
+    }
+    #Home > section:nth-child(2){
+        top: 100px;
+    }
+    #Home > section:nth-child(2) > div > button {
+        padding: 5px;
+        font-size: 18px;
+    }
+    #background{
+        top: 490px;
+        position: absolute;
+        width: 50%;
+        height: 90vw;
+        clip-path: polygon(100% 0, 100% 0, 100% 100%, 40% 100%);
+        z-index: -1;
+        right: 0;
+    }
+    #background2{
+        top: 462px;
+        position: absolute;
+        width: 50%;
+        height: 90vw;
+        clip-path: polygon(100% 0, 100% 31%, 50% 100%, 20% 100%);
+        z-index: -1;
+        right: 0;
+    }
+    #Home > section:nth-child(2) {
+        left: 10px;
+    }
+}
+@media (max-width: 426px){
+    #Home > section:nth-child(3) > img {
+        top: 417px;
+    }
+    #Home{
+        height: 205vw;
+    }
+}
+@media (max-width: 376px){
+    #Home > section:nth-child(3) > img {
+        top: 426px;
+    }
+    #Home{
+        height: 221vw;
+    }
+}
+@media (max-width: 321px){
+    #Home > section:nth-child(3) > img {
+        top: 435px;
+    }
+    #Home{
+        height: 243vw;
+    }
 }
