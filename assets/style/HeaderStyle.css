@@ -1,6 +1,6 @@
 
 header > h1 {
-    margin: 10px;
+    margin: 80px;
     font-size: 40px;
     font-family: 'Jomhuria', cursive;
     display: inline;
@@ -16,7 +16,32 @@ header > nav > a {
 
 header > nav {
     position: absolute;
-    right: 0;
+    right: 100px;
     top: 0;
     margin: 10px;
+}
+@media (max-width: 813px) {
+    header > nav > a {
+        margin: 0 5px;
+    }
+}
+@media (max-width: 758px) {
+    header > nav > a {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 686px) {
+    header > nav > a {
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 636px) {
+    header > nav > a {
+        font-size: 0.6rem;
+    }
+}
+@media (max-width: 607px) {
+    header > h1 {
+        margin: 10px;
+    }
 }
