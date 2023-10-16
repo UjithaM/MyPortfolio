@@ -1,15 +1,10 @@
 
-#My\ qualification > section > h3, #Projects > section > h3, #Assignment > section:nth-child(1) > h3, #Skills > section > h3, #Gallery > section > h3 {
-    position: absolute;
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    left: 50%;
-    top: 50px;
-    transform: translate(-50%, -50%);
-}
 
+#My\ qualification{
+    height: 60vw;
+}
 #My\ qualification > section > p {
-    position: absolute;
+    position: relative;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     text-align: center;
@@ -18,31 +13,212 @@
     color: #757070;
     width: 700px;
 }
+#My\ qualification > section:nth-child(2) > section > div:nth-child(1) {
+    position: relative;
+    left: calc(50% - 15px);
+    top: 110px;
+    border: 4px dashed #757070;
+    width: 30px;
+    border-radius: 100%;
+    height: 30px;
+    margin: 10px 0;
+}
+#My\ qualification > section:nth-child(2) > section > div:nth-child(1) > div {
+    position: relative;
+    left: calc(50% - 8px);
+    background: #F59E0B;
+    width: 16px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    top: 3px;
 
-#My\ qualification > section:nth-child(2)>div {
+}
+#My\ qualification > section:nth-child(2) > section > div:nth-child(2) {
+    position: relative;
+    left: calc(50% - 2px);
+    top: 110px;
+    background: #757070;
+    width: 4px;
+    height: 154px;
+}
+#My\ qualification > section:nth-child(2) > section > div:nth-child(3) {
+    width: fit-content;
+    position: absolute;
+}
+#My\ qualification > section:nth-child(2) > section > div:nth-child(3) > h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+#My\ qualification > section:nth-child(2) > section:nth-child(1) > div:nth-child(3)  {
+    left: 52%;
+    top: 184px;
+}
+#My\ qualification > section:nth-child(2) > section:nth-child(2) > div:nth-child(3) {
+    right: 52vw;
+    top: 392px;
+}
+#My\ qualification > section:nth-child(2) > section:nth-child(3) > div:nth-child(3)  {
+    left: 52%;
+    top: 594px;
+}
+
+#My\ qualification > section:nth-child(3)>div {
     font-family: 'Poppins', sans-serif;
 }
 
-#My\ qualification > section:nth-child(2) > div > p {
+#My\ qualification > section:nth-child(3) > div > p {
     color: #757070;
 }
-
-#My\ qualification > section:nth-child(2) > div:nth-child(1) {
-    position: absolute;
-    left: 60%;
-    top: 10vw;
+@media (max-width: 1348px) {
+    #My\ qualification{
+        height: 70vw;
+    }
 }
-
-#My\ qualification > section:nth-child(2) > div:nth-child(2) {
-    position: absolute;
-    font-family: 'Poppins', sans-serif;
-    left: 30%;
-    top: 22vw;
+@media (max-width: 1159px) {
+    #My\ qualification{
+        height: 80vw;
+    }
 }
-
-#My\ qualification > section:nth-child(2) > div:nth-child(3) {
-    position: absolute;
-    font-family: 'Poppins', sans-serif;
-    left: 60%;
-    top: 37vw;
+@media (max-width: 1024px) {
+    #My\ qualification{
+        height: 90vw;
+    }
+}
+@media (max-width: 898px) {
+    #My\ qualification{
+        height: 100vw;
+    }
+}
+@media (max-width: 808px) {
+    #My\ qualification{
+        height: 110vw;
+    }
+    #My\ qualification > section:nth-child(2) > section:nth-child(3) > div:nth-child(3), #My\ qualification > section:nth-child(2) > section:nth-child(1) > div:nth-child(3) {
+        left: 54%;
+    }
+}
+@media (max-width: 735px) {
+    #My\ qualification{
+        height: 120vw;
+    }
+    #My\ qualification > section > h3{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 680px) {
+    #My\ qualification{
+        height: 130vw;
+    }
+    #My\ qualification > section > p {
+        left: calc(50% - 250px);
+        width: 500px;
+    }
+    #My\ qualification > section:nth-child(2) > section:nth-child(1) > div:nth-child(3) {
+        top: 212px;
+    }
+    #My\ qualification > section:nth-child(2) > section:nth-child(3) > div:nth-child(3) {
+        top: 624px;
+    }
+    #My\ qualification > section:nth-child(2) > section:nth-child(2) > div:nth-child(3) {
+        right: 55vw;
+        top: 421px;
+    }
+}
+@media (max-width: 643px) {
+    #My\ qualification{
+        height: 140vw;
+    }
+}
+@media (max-width: 607px) {
+    #My\ qualification{
+        height: 150vw;
+    }
+    #My\ qualification > section:nth-child(2) > section:nth-child(2) > div:nth-child(3) {
+        right: 0;
+        left: 16%;
+    }
+    #My\ qualification > section:nth-child(2) > section > div:nth-child(1) {
+        left: 55px;
+    }
+    #My\ qualification > section:nth-child(2) > section > div:nth-child(2) {
+        left: 67px;
+    }
+    #My\ qualification > section:nth-child(2) > section:nth-child(3) > div:nth-child(3), #My\ qualification > section:nth-child(2) > section:nth-child(1) > div:nth-child(3) {
+        left: 16%;
+    }
+}
+@media (max-width: 557px) {
+    #My\ qualification{
+        height: 160vw;
+    }
+}
+@media (max-width: 541px) {
+    #My\ qualification{
+        height: 170vw;
+    }
+    #My\ qualification > section:nth-child(2) > section:nth-child(3) > div:nth-child(3), #My\ qualification > section:nth-child(2) > section:nth-child(1) > div:nth-child(3), #My\ qualification > section:nth-child(2) > section:nth-child(2) > div:nth-child(3)  {
+        left: 20%;
+    }
+    #My\ qualification > section > p {
+        left: calc(50% - 175px);
+        width: 350px;
+    }
+    #My\ qualification > section:nth-child(2) > section:nth-child(1) > div:nth-child(3) {
+        top: 239px;
+    }
+    #My\ qualification > section:nth-child(2) > section:nth-child(2) > div:nth-child(3) {
+        top: 444px;
+    }
+    #My\ qualification > section:nth-child(2) > section:nth-child(3) > div:nth-child(3) {
+        top: 651px;
+    }
+}
+@media (max-width: 522px) {
+    #My\ qualification{
+        height: 180vw;
+    }
+}
+@media (max-width: 492px) {
+    #My\ qualification{
+        height: 190vw;
+    }
+}
+@media (max-width: 464px) {
+    #My\ qualification{
+        height: 200vw;
+    }
+}
+@media (max-width: 426px) {
+    #My\ qualification{
+        height: 220vw;
+    }
+}
+@media (max-width: 376px) {
+    #My\ qualification{
+        height: 250vw;
+    }
+    #My\ qualification > section:nth-child(2) > section:nth-child(3) > div:nth-child(3), #My\ qualification > section:nth-child(2) > section:nth-child(1) > div:nth-child(3), #My\ qualification > section:nth-child(2) > section:nth-child(2) > div:nth-child(3) {
+        left: 25%;
+    }
+}
+@media (max-width: 321px) {
+    #My\ qualification{
+        height: 290vw;
+    }
+    #My\ qualification > section:nth-child(2) > section:nth-child(3) > div:nth-child(3), #My\ qualification > section:nth-child(2) > section:nth-child(1) > div:nth-child(3), #My\ qualification > section:nth-child(2) > section:nth-child(2) > div:nth-child(3) {
+        left: 30%;
+    }
+    #My\ qualification > section > p {
+        left: calc(50% - 150px);
+        width: 300px;
+    }
+    #My\ qualification > section:nth-child(2) > section:nth-child(1) > div:nth-child(3) {
+        top: 268px;
+    }
+    #My\ qualification > section:nth-child(2) > section:nth-child(2) > div:nth-child(3) {
+        top: 474px;
+    }
+    #My\ qualification > section:nth-child(2) > section:nth-child(3) > div:nth-child(3) {
+        top: 678px;
+    }
 }
