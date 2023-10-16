@@ -1,6 +1,5 @@
 #projectImages{
     position: relative;
-    top: 100px;
     height: 38vw;
     display: flex;
     justify-content: space-evenly;
@@ -16,7 +15,76 @@
 }
 
 #Projects > div > section> p {
+    position: absolute;
     text-align: center;
     width: 26vw;
     color: #757070;
+    left: 26px;
+}
+#Projects > div > section {
+    position: relative;
+
+}
+
+@media (max-width: 1358px) {
+    #Projects {
+        height: 56vw;
+    }
+}
+@media (max-width: 823px) {
+    #Projects {
+        height: 70vw;
+    }
+}
+
+@media (max-width: 769px) {
+    #Projects {
+        height: 58vw;
+    }
+    #projectImages{
+        top: 21px;
+    }
+    #Projects > div > section> p {
+        left: 8px;
+    }
+}
+@media (max-width: 607px) {
+    #Projects {
+        height: 300vw;
+    }
+    #projectImages{
+        top: 100px;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: fit-content;
+    }
+    #Projects > div > section> p {
+        position: unset;
+    }
+    #Projects > div > section> img {
+        width: 80vw;
+        height: 58vw;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    #Projects > div > section> p {
+        width: 80vw;
+        margin: 0 auto;
+    }
+    #Projects > section > h3 {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 425px) {
+    #Projects {
+        height: 350vw;
+    }
+}
+@media (max-width: 341px) {
+    #Projects {
+        height: 370vw;
+    }
+    #Projects > section > h3 {
+        font-size: 1.8rem;
+    }
 }
