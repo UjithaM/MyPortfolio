@@ -1,16 +1,18 @@
 
 #Gallery{
-    height: 55vw;
+    height: fit-content;
+}
+
+#Gallery > section:nth-child(1){
+    width: 100%;
+    height: 100px;
 }
 
 #Gallery > section:nth-child(2){
-    position: absolute;
     display: flex;
     width: 100%;
-    height: 50vw;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    top: 80px;
 }
 
 #Gallery > section:nth-child(2) > img {
