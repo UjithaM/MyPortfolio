@@ -1,32 +1,37 @@
 
 #Assignment{
-    height: 65vw;
+    height: fit-content;
 }
 
 #Assignment > section:nth-child(1) > h3 {
-    top: 100px ;
+    top: -75px ;
 }
 
 #Assignment > div{
-    position: absolute;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    top: 150px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+
 }
 
 #Assignment > div > section {
-    width: 30vw;
-    margin: 10px 20px;
+    width: fit-content;
+    height: fit-content;
+    margin: 13px 10px;
     background: #D9D9D9;
-    padding: 50px;
+    padding: 3vw;
     border-radius: 50px;
+
 }
 
 #Assignment > div > section > p {
     color: #757070;
+    width: 24vw;
+    height: fit-content;
 }
 
 #Assignment > div > section > h4 {
@@ -43,6 +48,26 @@
     font-size: 25px;
     border-radius: 20px;
     padding: 1vw;
-    left: 233px;
-    top: 24px;
+    top: 1vw;
+}
+@media (max-width: 880px) {
+    #Assignment > div > section > p {
+        width: 37vw;
+    }
+}
+@media (max-width: 607px) {
+    #Assignment > div > section > p {
+        width: 60vw;
+    }
+    #Assignment > div > section {
+        padding: 5vw;
+    }
+}
+@media (max-width: 426px) {
+    #Assignment > div > section > p {
+        width: 67vw;
+    }
+    #Assignment > div > section {
+        padding: 8vw;
+    }
 }
