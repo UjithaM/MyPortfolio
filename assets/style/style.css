@@ -61,3 +61,27 @@ body > main:nth-child(9) {
     top: 20px;
     transform: translateX(-50%);
 }
+/* For Webkit (Chrome, Safari, newer versions of Opera) */
+::-webkit-scrollbar {
+    width: 10px; /* Adjust the width to make it slimmer */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #F59E0B; /* Change the color to your desired color */
+    border-radius: 10px;
+}
+
+/* For Firefox */
+::-moz-scrollbar {
+    width: 5px; /* Adjust the width to make it slimmer */
+}
+
+::-moz-scrollbar-thumb {
+    background-color: #F59E0B; /* Change the color to your desired color */
+}
+
+/* For Internet Explorer and Edge */
+body {
+    scrollbar-width: thin; /* Adjust the width to make it slimmer */
+    scrollbar-color: #F59E0B transparent; /* Change the color and background color to your desired colors */
+}
