@@ -18,13 +18,32 @@ header > h1 {
     display: inline;
 }
 
-header > nav > a {
+nav .animated-link {
     text-decoration: none;
     color: black;
     margin: 0 10px;
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
+    position: relative;
 }
+
+nav .animated-link::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #F59E0B;
+    transition: width 0.3s, left 0.3s;
+    display: block;
+}
+
+nav .animated-link:hover::after {
+    width: 100%;
+    left: 0;
+}
+
 
 header > nav {
     position: absolute;
