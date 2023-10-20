@@ -4,6 +4,10 @@
     position: absolute;
     right: 100px;
     top: 97px;
+    transition: transform 0.5s ease-in-out;
+}
+#Home > section:nth-child(3) > img:hover {
+    transform: scale(1.1);
 }
 
 #Home > section:nth-child(2) > div > h2 {
@@ -26,7 +30,28 @@
     top: 250px;
 }
 
-#Home > section:nth-child(2) > div > button {
+.hire-me-button{
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #F59E0B;
+    border: 1px solid white;
+    margin: 0;
+    font-size: 25px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+.download-cv-button {
     padding: 10px;
     font-family: 'Poppins', sans-serif;
     color: #F59E0B;
@@ -35,6 +60,24 @@
     margin: 0;
     font-size: 25px;
     border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+.download-cv-button:hover, .download-cv-button:focus, .download-cv-button:active {
+    background-color: #F59E0B;
+    color: white;
+}
+.hire-me-button:hover, .hire-me-button:focus, .hire-me-button:active {
+    background-color: #DA7806;
+    color: white;
 }
 
 #background{
