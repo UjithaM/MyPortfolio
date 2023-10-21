@@ -9,6 +9,36 @@
 #Home > section:nth-child(3) > img:hover {
     transform: scale(1.1);
 }
+#mob-nav {
+
+    display: none;
+
+    background: #F59E0B;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 60px;
+    padding-top: 20px;
+}
+
+#mob-nav>ul {
+    list-style: none;
+}
+
+#mob-nav>ul>li {
+    margin-bottom: 20px;
+}
+.nav-icon {
+    height: fit-content;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 35px;
+
+    display: none;
+}
 
 #Home > section:nth-child(2) > div > h2 {
     font-family: 'Poppins', sans-serif;
@@ -225,6 +255,17 @@
     }
     #Home > section:nth-child(2) {
         left: 10px;
+    }
+}
+@media all and (max-width: 607px){
+    /*#mob-nav {*/
+    /*    display: block;*/
+    /*}*/
+    .nav-icon {
+        display: block;
+    }
+    #nav-icon-close {
+        display: none;
     }
 }
 @media (max-width: 426px){
