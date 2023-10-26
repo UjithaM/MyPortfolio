@@ -20,7 +20,7 @@
 
 #Assignment > div > section {
     width: fit-content;
-    height: fit-content;
+    aspect-ratio: 1/1;
     margin: 13px 10px;
     background: #D9D9D9;
     padding: 3vw;
@@ -30,7 +30,7 @@
 
 #Assignment > div > section > p {
     color: #757070;
-    width: 24vw;
+    width: 17vw;
     height: fit-content;
 }
 
@@ -49,6 +49,7 @@
     border-radius: 20px;
     padding: 1vw;
     top: 1vw;
+    left: calc(50% - 80px);
 }
 @media (max-width: 880px) {
     #Assignment > div > section > p {
