@@ -22,3 +22,6 @@ $("#nav-icon-close").on("click", () => {
     $("#nav-icon-close").css("display", "none");
     $("#mob-nav").css("display", "none");
 });
+$("#assignment-03-button").on("click", () => {
+    window.location.href = "assets/assignment/assignment-03/Assignment03.html";
+});
