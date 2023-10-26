@@ -119,3 +119,6 @@ section{
 body{
     background: #fff7f1;
 }
+a {
+    text-decoration: none;
+}
