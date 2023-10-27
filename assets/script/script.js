@@ -31,3 +31,6 @@ $("#assignment-04-button").on("click", () => {
 $("#assignment-08-button").on("click", () => {
     window.location.href = "assets/assignment/assignment-08/Assignment08.html";
 });
+$("#assignment-09-button").on("click", () => {
+    window.location.href = "assets/assignment/assignment-09/Assignment09.html";
+});
