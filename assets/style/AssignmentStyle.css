@@ -1,0 +1,78 @@
+
+#Assignment{
+    height: fit-content;
+}
+
+#Assignment > section:nth-child(1) > h3 {
+    top: -75px ;
+}
+
+#Assignment > div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+}
+
+#Assignment > div > section {
+    width: fit-content;
+    aspect-ratio: 1/1;
+    margin: 13px 10px;
+    background: #D9D9D9;
+    padding: 3vw;
+    border-radius: 50px;
+
+}
+
+#Assignment > div > section > p {
+    color: #757070;
+    width: 17vw;
+    height: fit-content;
+}
+
+#Assignment > div > section > h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+#Assignment > div > section > button {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #F59E0B;
+    border: none;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 1vw;
+    top: 100px;
+    left: calc(50% - 80px);
+}
+
+#Assignment > div > section > button:hover {
+    background-color: #DA7806;
+}
+@media (max-width: 880px) {
+    #Assignment > div > section > p {
+        width: 37vw;
+    }
+}
+@media (max-width: 607px) {
+    #Assignment > div > section > p {
+        width: 60vw;
+    }
+    #Assignment > div > section {
+        padding: 5vw;
+    }
+}
+@media (max-width: 426px) {
+    #Assignment > div > section > p {
+        width: 67vw;
+    }
+    #Assignment > div > section {
+        padding: 8vw;
+    }
+}

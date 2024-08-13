@@ -1,0 +1,24 @@
+body{
+    background: black;
+}
+section:nth-child(1){
+    margin-top: 45vh;
+    position: relative;
+    display: flex;
+    background: black;
+    width: 1000px;
+    height: 50px;
+    justify-content: space-around;
+    left: calc(50% - 500px);
+}
+div{
+    margin: 5px;
+    background:white;
+    width: 200px;
+    border-radius: 2px;
+}
+section:nth-child(2){
+    position: relative;
+    left: 47%;
+    margin-top: 10px;
+}

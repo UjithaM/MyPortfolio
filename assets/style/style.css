@@ -1,0 +1,87 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 24px;
+    color: #757070;
+}
+/* Body styles */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    scroll-snap-type: y mandatory;
+}
+body > main {
+    position: relative;
+    height: 48vw;
+    scroll-snap-align: center;
+}
+/* Home styles */
+
+body > main:nth-child(1) {
+    background-color: #FFF7F1;
+    z-index: 0;
+}
+
+body > main:nth-child(3) {
+    background-color: #FFF7F1;
+}
+
+body > main:nth-child(5) {
+    background-color: #FFF7F1;
+}
+body > main:nth-child(7) {
+    background-color: #FFF7F1;
+}
+body > main:nth-child(9) {
+    background-color: #FFF7F1;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+#My\ qualification > section > h3, #Projects > section > h3, #Assignment > section:nth-child(1) > h3, #Skills > section > h3, #Gallery > section > h3 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    white-space: nowrap;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+}
+/* For Webkit (Chrome, Safari, newer versions of Opera) */
+::-webkit-scrollbar {
+    width: 10px; /* Adjust the width to make it slimmer */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #F59E0B; /* Change the color to your desired color */
+    border-radius: 10px;
+}
+
+/* For Firefox */
+::-moz-scrollbar {
+    width: 5px; /* Adjust the width to make it slimmer */
+}
+
+::-moz-scrollbar-thumb {
+    background-color: #F59E0B; /* Change the color to your desired color */
+}
+
+/* For Internet Explorer and Edge */
+body {
+    scrollbar-width: thin; /* Adjust the width to make it slimmer */
+    scrollbar-color: #F59E0B transparent; /* Change the color and background color to your desired colors */
+}

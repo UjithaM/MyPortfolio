@@ -1,0 +1,214 @@
+
+#About\ Me > section:nth-child(1) > div > div > img {
+    position: absolute;
+    width: 27vw;
+    height: 41vw;
+    border-radius: 500px;
+    top: -31px;
+    left: 1px;
+}
+
+#About\ Me > section:nth-child(1) > div > div {
+    position: relative;
+    background-color: #FEB33C;
+    width: 27vw;
+    height: 39vw;
+    border-radius: 500px;
+    left: 10px;
+    top: 7px;
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+}
+
+#About\ Me > section:nth-child(1) > div {
+    position: relative;
+    border: 1px solid black;
+    width: 27vw;
+    height: 39vw;
+    border-radius: 500px;
+    left: 100px;
+    top: 50px;
+}
+#About\ Me > section:nth-child(2){
+    position: absolute;
+    width: 50%;
+    top: 10vw;
+    left: 50%;
+}
+#About\ Me > section:nth-child(1){
+    position: absolute;
+    width: 50%;
+}
+#About\ Me > section:nth-child(2) > h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+#About\ Me > section:nth-child(2) > p {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+#About\ Me > section:nth-child(2) > div {
+    position: relative;
+}
+
+#About\ Me > section:nth-child(2) > div > button {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #F59E0B;
+    background-color: #FFDEBF;
+    border: 1px solid white;
+    margin: 0;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 1440px){
+    #About\ Me > section:nth-child(1) > div {
+        top: 39px;
+    }
+}
+@media (max-width: 1205px){
+    #About\ Me > section:nth-child(2) > p{
+        font-size: 1.2rem;
+    }
+    #About\ Me > section:nth-child(1) > div > div > img {
+        top: -24px;
+    }
+}
+@media (max-width: 1024px){
+    #About\ Me > section:nth-child(1) > div > div > img {
+        top: -20px;
+    }
+    #About\ Me > section:nth-child(2) > p{
+        font-size: 1rem;
+    }
+    #About\ Me > section:nth-child(2) > h3 {
+        font-size: 1.8rem;
+    }
+    #About\ Me > section:nth-child(2) > div > a > img{
+        width: 40px;
+    }
+    #About\ Me > section:nth-child(2) > div > button {
+        padding: 5px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 810px) {
+    #About\ Me > section:nth-child(2) > p{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 768px){
+    #About\ Me > section:nth-child(1) > div > div > img {
+        top: -15px;
+    }
+    #About\ Me > section:nth-child(2) > div > a > img{
+        width: 30px;
+    }
+}
+@media (max-width: 736px){
+    #About\ Me > section:nth-child(2) {
+        top: 6vw;
+    }
+    #About\ Me > section:nth-child(2) > p{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 646px){
+    #About\ Me > section:nth-child(2) {
+        top: 6vw;
+    }
+    #About\ Me > section:nth-child(2) > p{
+        font-size: 0.7rem;
+    }
+    #About\ Me > section:nth-child(1) > div > div > img {
+        top: -13px;
+    }
+}
+@media (max-width: 607px){
+    #About\ Me{
+        height: 184vw;
+    }
+    #About\ Me > section:nth-child(1){
+        position: relative;
+        width: 100%;
+        height: fit-content;
+    }
+    #About\ Me > section:nth-child(2){
+        position: relative;
+        width: 70vw;
+        height: fit-content;
+        left: calc(50% - 35vw);
+        top: 30vw;
+    }
+    #About\ Me > section:nth-child(2) > h3 {
+        font-size: 2rem;
+    }
+    #About\ Me > section:nth-child(1) > div > div > img {
+        width: 69vw;
+        height: 102vw;
+    }
+    #About\ Me > section:nth-child(1) > div > div {
+        width: 69vw;
+        height: 100vw;
+
+    }
+    #About\ Me > section:nth-child(1) > div {
+        width: 69vw;
+        height: 100vw;
+        top: 20vw;
+        left: calc(50% - 34.5vw);
+    }
+    #About\ Me > div {
+
+    }
+    #About\ Me > section:nth-child(2) > p {
+        font-size: 1rem;
+    }
+    #About\ Me > section:nth-child(2) > div > a > img {
+        width: 40px;
+    }
+    #About\ Me > section:nth-child(2) > div {
+
+    }
+    #About\ Me > section:nth-child(2) > div > button {
+
+    }
+}
+@media (max-width: 586px) {
+    #About\ Me{
+        height: 210vw;
+    }
+    #About\ Me > section:nth-child(2) > h3 {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 486px){
+    #About\ Me{
+        height: 225vw;
+    }
+    #About\ Me > section:nth-child(2) > h3 {
+        font-size: 1.2rem;
+    }
+}
+@media  (max-width: 426px){
+    #About\ Me > section:nth-child(1) > div > div > img {
+        top: -8px;
+    }
+    #About\ Me{
+        height: 230vw;
+    }
+}
+@media  (max-width: 376px){
+    #About\ Me{
+        height: 250vw;
+    }
+}
+@media  (max-width: 345px){
+    #About\ Me{
+        height: 280vw;
+    }
+}

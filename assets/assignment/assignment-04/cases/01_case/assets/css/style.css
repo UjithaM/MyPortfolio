@@ -1,0 +1,31 @@
+body>div{
+    position: relative;
+    margin: 50px 0;
+    width: 250px;
+    height: 50px;
+    background-color: purple;
+    right: 200px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+    border-radius: 10px;
+    transition-duration: 3s;
+    transition-property: right;
+}
+body>div>h3{
+    height: max-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    margin: auto;
+}
+body>div>div{
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    margin: auto;
+}
+body>div:hover{
+    right: 10px;
+}
